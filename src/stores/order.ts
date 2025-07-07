@@ -8,7 +8,7 @@ export const useOrderStore = defineStore('order', () => {
     id: 1,
     title: 'Прототип умных часов',
     description: 'Разработка прототипа с базовым функционалом:\n- Отображение времени\n- Шагомер\n- Уведомления',
-    image: './src/assets/clocks.jpg',
+    image: './clocks.jpg',
     files: [
       { id: 1, name: 'Техническое задание.pdf', type: 'document' },
       { id: 2, name: 'Эскиз дизайна.png', type: 'image' }
